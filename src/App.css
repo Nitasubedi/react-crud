@@ -1,0 +1,9 @@
+/* css position :
+
+static - default 
+absolute - psoition the element relative to the postion of its parent.
+relative - psoition the element relative to its normal position and leave gap at its normal position
+fixed - psoition the element relative to the browser window
+
+
+z-index only work for position relative, absolute, fixed and sticky */
