@@ -4,7 +4,7 @@ const Card = () => {
   const { data, isLoading, isError } = useQuery({
     queryFn: async () => {
       try {
-        const dataFetch = await fetch("https://fakestoreapi.com/products/1");
+        const dataFetch = await fetch("https://fakestoreapi.com/products");
         if (dataFetch.ok) {
           const jsonData = await dataFetch.json();
           return jsonData;

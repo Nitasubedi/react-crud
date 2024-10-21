@@ -24,7 +24,7 @@ const App = () => {
           </div>
         </Modal>
       ) : null}
-      {/* <h1>Hello</h1> */}
+      <h1>Hello</h1>
       <button
         onClick={() => setOpenModal(true)}
         className="bg-red-600 m-5 text-white px-3 py-2 rounded-md "
